@@ -6,7 +6,7 @@ from rdkit.Chem import Draw
 
 
 
-def visualize_smiles(input_file: str) -> None:
+def visualize_smiles(input: str) -> None:
     """
     Takes a csv file of SMILES and outputs a png of the structures.
     CSV file should have two columns: the first column containing a label for the molecule, the second containing the SMILES string
